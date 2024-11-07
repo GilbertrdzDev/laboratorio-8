@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkcyan;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h1, h2 {
+    color: black;
+    background-color: yellowgreen;
+    padding: 8px 10px;
+    border-radius: 8px;
+    text-align:center;
+}
+
+p {
+    color:black;
+}
+
+ul {
+    font-size: 16px;
+
+    & > li > strong {
+        color: yellowgreen;
+    }
+}
+
+img {
+    width: 300px;
+}
